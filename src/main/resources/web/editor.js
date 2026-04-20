@@ -264,7 +264,7 @@ if (location.hash == "" || location.hash == "#") {
                                 needsRedraw = true;
                                 it.loaded = true;
                             };
-                            it.src = "https://rawcdn.githack.com/Owen1212055/mc-assets/refs/heads/main/assets/" + self.item.toUpperCase() + ".png";
+                            it.src = "https://rawcdn.githack.com/Owen1212055/mc-assets/refs/heads/main/item-assets/" + self.item.toUpperCase() + ".png";
                             images.set(self.item, it);
                         }
                         let img = images.get(self.item);
