@@ -139,7 +139,7 @@ public class WikiGenerator {
     }
 
     private static String icon(Item m, String size) {
-        return "<img src=\"https://rawcdn.githack.com/Owen1212055/mc-assets/refs/heads/main/assets/" + Registries.ITEM.getId(m).getPath().toUpperCase() + ".png\" style=\"height: " + size + "; transform: translateY(0.1em);\">";
+        return "<img src=\"https://rawcdn.githack.com/Owen1212055/mc-assets/refs/heads/main/item-assets/" + Registries.ITEM.getId(m).getPath().toUpperCase() + ".png\" style=\"height: " + size + "; transform: translateY(0.1em);\">";
     }
 
     private static String colorStart(TextColor color) {
